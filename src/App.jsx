@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import conf from './config/conf'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
