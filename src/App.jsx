@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import conf from './config/conf'
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
+import Header from './components/index'
+import Footer from './components/index'
 import { useRecoilState } from 'recoil';
 import { loggedInState, userDataState } from './store/store';
 import authService from './appwrite/auth';
